@@ -1,10 +1,19 @@
-/*This code is based on seive of eratosthenes algorithm...which is very efficient in finding the prime numbers upto a numbe
+/*
+This code is based on seive of eratosthenes algorithm...which is very efficient in finding the prime numbers upto a numbe
 time complexity=O(n.loglogn)
-
+*/
 
 #include<bits/stdc++.h>
 using namespace std;
 
+void print_array(int *prime,int n)
+{
+     for(int i=0;i<n;i++)
+     {
+        if(prime[i]==1)cout<<i<<ends;
+     }
+}
+	
 void sieve_of_eratosthenes(int n)
 {
 	int prime[n+1];
