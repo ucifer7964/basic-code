@@ -1,5 +1,8 @@
+/*This code is based on seive of eratosthenes algorithm...which is very efficient in finding the prime numbers upto a numbe
+time complexity=O(n.loglogn)
+
+
 #include<bits/stdc++.h>
-#include<conio.h>
 using namespace std;
 
 void sieve_of_eratosthenes(int n)
@@ -37,5 +40,4 @@ int main()
 	cout<<"enter the no. upto which you want to print prime no.s";
 	cin>>n;
 	sieve_of_eratosthenes(n);
-	getch();
 }
