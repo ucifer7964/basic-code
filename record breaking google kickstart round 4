@@ -1,7 +1,7 @@
 /*it is based on Kadane's algorithm
 =>description: In this program basically there is two condition to say a day is record breaking
-  1>  the days should have strictly greater visitors than the prvious days,
-  2>  either last day is record breaking day or more no. of visitors from following days.
+  1>  the days should have strictly greater visitors than the previous days,
+  2>  either last day is record breaking day or strictly more no. of visitors from following day.
   */
   
   #include<iostream>
