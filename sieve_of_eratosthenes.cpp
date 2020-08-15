@@ -35,13 +35,7 @@ void sieve_of_eratosthenes(int n)
 		}
 	}
 	
-	for(int i=0;i<=n;i++)
-	{
-		if(prime[i]==1)
-		{
-			cout<<i<<ends;
-		}
-	}
+  print_array(prime,n+1);
 }
 int main()
 {
